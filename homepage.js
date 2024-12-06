@@ -33,12 +33,12 @@ function slideImages() {
 }
 
 // Slide images every 3 seconds
-setInterval(slideImages, 2000);
+setInterval(slideImages, 1000);
 
 // Adds event listener
 carouselSlide.addEventListener('transitionend', () => {
     if (updatedCarouselImages[counter].alt === firstClone.alt) {
-        counter = 1;
+        counter = 50;
         carouselSlide.style.transition = 'none';
         carouselSlide.style.transform = `translateX(${-size * counter}px)`;
     }
