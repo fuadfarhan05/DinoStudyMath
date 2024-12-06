@@ -84,3 +84,13 @@ strong {
 .math {
   color: #41a1c4;
 }
+
+img {
+  border: solid  10px;
+  border-radius: 50px;
+}
+
+iframe {
+  width: 1000px;
+  height: 1000px;
+}
