@@ -7,13 +7,17 @@
     <link rel="stylesheet" href="read.css">
 </head>
 <body>
-    <h2>Fill in the blank with either "eat" or "ate".</h2>
+    <h1>Fill in the blank with either "eat" or "ate".</h1>
+
+<div id="feedback-area">
+
+</div>
     <div class="card-display" id="card-display">
         <!-- Card content will be dynamically injected here -->
     </div>
     <div class="controls">
-        <button onclick="previousCard()">EAT</button>
-        <button onclick="nextCard()">ATE</button>
+        <button onclick="checkEat()">EAT</button>
+        <button onclick="checkAte()">ATE</button>
     </div>
     <script src="read.js"></script>
 </body>
