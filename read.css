@@ -15,7 +15,7 @@ h1 {
 
 .card-display {
     width: 500px;
-    height: 500px;
+    height: 200px;
     background-color: rgb(125, 179, 72);
     border: 2px solid #ddd;
     border-radius: 10px;
@@ -41,7 +41,7 @@ h1 {
 }
 
 .card-description {
-    font-size: 45px;
+    font-size: 2.0em;
     font-weight: bold;
     color: #000000;
 }
@@ -49,12 +49,12 @@ h1 {
 .controls button {
     margin: 0 10px;
     padding: 10px 20px;
-    font-size: 55px;
+    font-size: 25px;
     font-weight: bold;
     background-color: #269d41;
     color: white;
     border: none;
-    border-radius: 25px;
+    border-radius: 50px;
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
