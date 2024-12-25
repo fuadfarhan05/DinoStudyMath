@@ -1,6 +1,6 @@
 body {
     width:100%;
-    font-family: Arial, sans-serif;
+    font-family: "Sour Gummy", serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,6 +12,7 @@ body {
 
 h1 {
     color:antiquewhite;
+    text-align: center;
 }
 
 .card-display {
@@ -52,7 +53,7 @@ h1 {
     padding: 10px 20px;
     font-size: 25px;
     font-weight: bold;
-    background-color: #269d41;
+    background-color: #8d1515;
     color: white;
     border: none;
     border-radius: 50px;
